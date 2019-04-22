@@ -30,15 +30,15 @@ a {
 
 /* ----- Navbar Component ----- */
 .nav {
-  position: sticky;
+  position: fixed;
   display: flex;
   flex-direction: row;
-  padding-top: 16px;
-  margin: 0 32px;
+  padding: 16px 32px 8px;
   top: 0;
   left: 0;
   right: 0;
   height: 60px;
+  transition: all 200ms ease-in-out;
 
   .nav-brand {
     display: flex;
@@ -89,6 +89,22 @@ a {
       &:visited {
         color: white;
       }
+    }
+  }
+
+  &.light {
+    z-index: 4;
+    background-color: white;
+    -webkit-box-shadow: 0 8px 6px -4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 8px 6px -4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 6px -4px rgba(0, 0, 0, 0.2);
+
+    .nav-brand {
+      color: black;
+    }
+
+    .nav-links a {
+      color: black;
     }
   }
 }

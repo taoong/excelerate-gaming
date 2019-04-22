@@ -6,6 +6,7 @@ $grey-1: #3c4858;
 }
 
 .jumbotron {
+  padding-top: 60px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../../images/background-1.jpg");
   background-size: cover;
@@ -13,7 +14,7 @@ $grey-1: #3c4858;
   .jumbotron-content {
     display: flex;
     flex-direction: column;
-    padding: 15vh 5rem 20vh;
+    padding: 12vh 5rem 20vh;
 
     h1 {
       font-size: 48px;

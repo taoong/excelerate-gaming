@@ -10,7 +10,7 @@ class Home extends Component {
       max: 15, // max tilt rotation (degrees)
       perspective: 1000, // Transform perspective, the lower the more extreme the tilt gets.
       scale: 1.04, // 2 = 200%, 1.5 = 150%, etc..
-      speed: 1500, // Speed of the enter/exit transition
+      speed: 1100, // Speed of the enter/exit transition
       transition: true, // Set a transition on enter/exit.
       axis: null, // What axis should be disabled. Can be X or Y.
       reset: true, // If the tilt effect has to be reset on exit.
@@ -19,8 +19,8 @@ class Home extends Component {
 
     return (
       <div id="home">
+        <Nav />
         <section className="jumbotron">
-          <Nav />
           <div className="jumbotron-content">
             <h1>Excelerate Gaming vs Denial Esports.</h1>
             <h3>
