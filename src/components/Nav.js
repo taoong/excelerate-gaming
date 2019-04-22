@@ -18,7 +18,7 @@ class Nav extends Component {
   render() {
     return (
       <nav className={this.state.isTop ? "nav" : "nav light"}>
-        <Link to="/admin" className="nav-brand">
+        <Link to="/" className="nav-brand">
           <img
             src={require("../images/logo.png")}
             className="nav-logo"

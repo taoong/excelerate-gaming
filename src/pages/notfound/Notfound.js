@@ -10,7 +10,9 @@ class Notfound extends Component {
           Looks like you've followed a broken link or entered a URL that doesn't
           exist on this site.
         </p>
-        <button>Go back</button>
+        <a href="/">
+          <button>Go back</button>
+        </a>
       </div>
     );
   }
