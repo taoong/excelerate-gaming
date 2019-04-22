@@ -13,7 +13,7 @@ $grey-1: #3c4858;
   .jumbotron-content {
     display: flex;
     flex-direction: column;
-    padding: 10vh 4rem 20vh;
+    padding: 15vh 4rem 20vh;
 
     h1 {
       font-size: 48px;
@@ -110,58 +110,56 @@ $grey-1: #3c4858;
       transform-style: preserve-3d;
     }
 
-    .card .card-img {
-      display: flex;
-      width: 100%;
-      height: 45%;
-      margin: 0;
-      background: white;
-    }
+    .card {
+      .card-img {
+        display: flex;
 
-    .card-img img {
-      margin: auto;
-      height: 40%;
-    }
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
 
-    .card-content {
-      display: flex;
-      flex-direction: column;
-      padding: 25px;
-      background: rgba(0, 0, 0, 0.02);
-      flex: 1;
-    }
+      .card-content {
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        background: rgba(0, 0, 0, 0.02);
+        flex: 1;
 
-    .card .title {
-      z-index: 2;
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 120%;
-      letter-spacing: 0.02em;
-      transform: translateZ(20px);
-    }
+        .title {
+          z-index: 2;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 120%;
+          letter-spacing: 0.02em;
+          transform: translateZ(20px);
+        }
 
-    .card .description {
-      justify-content: flex-end;
-      font-weight: 350;
-      font-size: 18px;
-      opacity: 0.6;
-      transform: translateZ(20px);
-    }
+        .description {
+          justify-content: flex-end;
+          font-weight: 350;
+          font-size: 18px;
+          opacity: 0.6;
+          transform: translateZ(20px);
+        }
 
-    .card .credits {
-      justify-content: flex-end;
-      margin-top: auto;
-      font-weight: 350;
-      font-size: 14px;
-      opacity: 0.6;
-      transform: translateZ(20px);
-      color: rgba(0, 0, 0, 0.6);
-      transition: all 200ms;
-    }
+        .credits {
+          justify-content: flex-end;
+          margin-top: auto;
+          font-weight: 350;
+          font-size: 14px;
+          opacity: 0.6;
+          transform: translateZ(20px);
+          color: rgba(0, 0, 0, 0.6);
+          transition: all 200ms;
 
-    .card .credits:hover {
-      color: rgba(0, 0, 0, 1);
-      transition: all 200ms;
+          &:hover {
+            color: rgba(0, 0, 0, 1);
+            transition: all 200ms;
+          }
+        }
+      }
     }
   }
 }

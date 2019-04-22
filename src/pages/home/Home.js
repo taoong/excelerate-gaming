@@ -29,11 +29,16 @@ class Home extends Component {
             <a href="https://rainbow6.ubisoft.com/siege/en-us/news/152-335837-16/season-8-challenger-league-week-2-recap">
               <div class="card" data-tilt>
                 <div class="card-img">
-                  <img src="images/sprout-logo.png" alt="Not found!" />
+                  <img
+                    src={require("../../images/card-1.jpg")}
+                    alt="Not found!"
+                  />
                 </div>
                 <div class="card-content">
                   <h1 class="title">Season 8 Challenger League Week 2 Recap</h1>
-                  <p class="description">Highlights, and other stuff.</p>
+                  <p class="description">
+                    Highlights, awards, and other stuff.
+                  </p>
                   <p class="credits">View Article > </p>
                 </div>
               </div>
@@ -41,11 +46,16 @@ class Home extends Component {
             <a href="https://rainbow6.ubisoft.com/siege/en-us/news/152-335837-16/season-8-challenger-league-week-2-recap">
               <div class="card" data-tilt>
                 <div class="card-img">
-                  <img src="images/sprout-logo.png" alt="Not found!" />
+                  <img
+                    src={require("../../images/card-1.jpg")}
+                    alt="Not found!"
+                  />
                 </div>
                 <div class="card-content">
                   <h1 class="title">Season 8 Challenger League Week 2 Recap</h1>
-                  <p class="description">Highlights, and other stuff.</p>
+                  <p class="description">
+                    Highlights, awards, and other stuff.
+                  </p>
                   <p class="credits">View Article > </p>
                 </div>
               </div>
@@ -53,11 +63,16 @@ class Home extends Component {
             <a href="https://rainbow6.ubisoft.com/siege/en-us/news/152-335837-16/season-8-challenger-league-week-2-recap">
               <div class="card" data-tilt>
                 <div class="card-img">
-                  <img src="images/sprout-logo.png" alt="Not found!" />
+                  <img
+                    src={require("../../images/card-1.jpg")}
+                    alt="Not found!"
+                  />
                 </div>
                 <div class="card-content">
                   <h1 class="title">Season 8 Challenger League Week 2 Recap</h1>
-                  <p class="description">Highlights, and other stuff.</p>
+                  <p class="description">
+                    Highlights, awards, and other stuff.
+                  </p>
                   <p class="credits">View Article > </p>
                 </div>
               </div>
@@ -65,11 +80,16 @@ class Home extends Component {
             <a href="https://rainbow6.ubisoft.com/siege/en-us/news/152-335837-16/season-8-challenger-league-week-2-recap">
               <div class="card" data-tilt>
                 <div class="card-img">
-                  <img src="images/sprout-logo.png" alt="Not found!" />
+                  <img
+                    src={require("../../images/card-1.jpg")}
+                    alt="Not found!"
+                  />
                 </div>
                 <div class="card-content">
                   <h1 class="title">Season 8 Challenger League Week 2 Recap</h1>
-                  <p class="description">Highlights, and other stuff.</p>
+                  <p class="description">
+                    Highlights, awards, and other stuff.
+                  </p>
                   <p class="credits">View Article > </p>
                 </div>
               </div>
