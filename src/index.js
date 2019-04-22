@@ -7,7 +7,7 @@ import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 // Pages
 import Home from "./pages/home/Home";
 import Teams from "./pages/teams/Teams";
-import Press from "./pages/press/Press";
+import Events from "./pages/events/Events";
 import Contact from "./pages/contact/Contact";
 import Notfound from "./pages/notfound/Notfound";
 
@@ -17,7 +17,7 @@ const routing = (
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/teams" component={Teams} />
-        <Route path="/press" component={Press} />
+        <Route path="/events" component={Events} />
         <Route path="/contact" component={Contact} />
         <Route component={Notfound} />
       </Switch>
