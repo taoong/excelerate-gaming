@@ -1,4 +1,23 @@
 .tabs {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  .tab {
+    margin: 8px 24px;
+    padding: 8px 24px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    transition: all 0.2 ease-in-out;
+
+    &:focus {
+      outline: none;
+    }
+
+    &.selected {
+      background-color: rgba(0, 0, 0, 0.15);
+    }
+  }
 }
