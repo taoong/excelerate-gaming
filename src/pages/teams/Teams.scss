@@ -21,3 +21,33 @@
     }
   }
 }
+
+.member {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 32px 32px;
+  padding: none;
+  align-items: center;
+  justify-content: center;
+  border: rgba(0, 0, 0, 0.1) 1px solid;
+  border-radius: 6px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+
+  img {
+    width: 20%;
+    height: 20%;
+    min-width: 200px;
+    margin-bottom: auto;
+  }
+
+  div {
+    margin: 0 32px;
+    margin-bottom: auto;
+  }
+
+  p {
+    margin-bottom: auto;
+    padding-bottom: 16px;
+    width: 50%;
+  }
+}

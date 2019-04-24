@@ -22,6 +22,14 @@ class Teams extends Component {
   renderMembers = () => {
     if (this.state.team === "COD") {
       return this.renderCOD();
+    } else if (this.state.team === "Halo") {
+      return this.renderHalo();
+    } else if (this.state.team === "PUBG") {
+      return this.renderPUBG();
+    } else if (this.state.team === "CS:GO") {
+      return this.renderCSGO();
+    } else if (this.state.team === "Hearthstone") {
+      return this.renderHearthstone();
     }
   };
 
@@ -31,7 +39,7 @@ class Teams extends Component {
         <Member
           gamingName={"TAEYO"}
           fullName={"Tao Ong"}
-          role={"Player"}
+          playerRole={"Player"}
           description={
             "Signed by Excelerate Gaming in 2019, TAEYO is known to be in the top 10 ranked web developers in the world."
           }
@@ -39,7 +47,7 @@ class Teams extends Component {
         <Member
           gamingName={"TAEYO"}
           fullName={"Tao Ong"}
-          role={"Player"}
+          playerRole={"Player"}
           description={
             "Signed by Excelerate Gaming in 2019, TAEYO is known to be in the top 10 ranked web developers in the world."
           }
@@ -47,9 +55,133 @@ class Teams extends Component {
         <Member
           gamingName={"TAEYO"}
           fullName={"Tao Ong"}
-          role={"Player"}
+          playerRole={"Player"}
           description={
             "Signed by Excelerate Gaming in 2019, TAEYO is known to be in the top 10 ranked web developers in the world."
+          }
+        />
+      </div>
+    );
+  };
+
+  renderHalo = () => {
+    return (
+      <div>
+        <Member
+          gamingName={"JTAN"}
+          fullName={"Justin Tan"}
+          playerRole={"Player"}
+          description={
+            "After founding Excelerate Gaming in 2018, JTAN is known to be in the top 10 ranked founders in the world."
+          }
+        />
+        <Member
+          gamingName={"JTAN"}
+          fullName={"Justin Tan"}
+          playerRole={"Player"}
+          description={
+            "After founding Excelerate Gaming in 2018, JTAN is known to be in the top 10 ranked founders in the world."
+          }
+        />
+        <Member
+          gamingName={"JTAN"}
+          fullName={"Justin Tan"}
+          playerRole={"Player"}
+          description={
+            "After founding Excelerate Gaming in 2018, JTAN is known to be in the top 10 ranked founders in the world."
+          }
+        />
+      </div>
+    );
+  };
+
+  renderPUBG = () => {
+    return (
+      <div>
+        <Member
+          gamingName={"PAEYO"}
+          fullName={"Tao Ong"}
+          playerRole={"Player"}
+          description={
+            "Signed by Excelerate Gaming in 2019, PAEYO is known to be in the top 10 ranked web developers in the world."
+          }
+        />
+        <Member
+          gamingName={"PAEYO"}
+          fullName={"Tao Ong"}
+          playerRole={"Player"}
+          description={
+            "Signed by Excelerate Gaming in 2019, PAEYO is known to be in the top 10 ranked web developers in the world."
+          }
+        />
+        <Member
+          gamingName={"PAEYO"}
+          fullName={"Tao Ong"}
+          playerRole={"Player"}
+          description={
+            "Signed by Excelerate Gaming in 2019, PAEYO is known to be in the top 10 ranked web developers in the world."
+          }
+        />
+      </div>
+    );
+  };
+
+  renderCSGO = () => {
+    return (
+      <div>
+        <Member
+          gamingName={"CAEYO"}
+          fullName={"Tao Ong"}
+          playerRole={"Player"}
+          description={
+            "Signed by Excelerate Gaming in 2019, CAEYO is known to be in the top 10 ranked web developers in the world."
+          }
+        />
+        <Member
+          gamingName={"CAEYO"}
+          fullName={"Tao Ong"}
+          playerRole={"Player"}
+          description={
+            "Signed by Excelerate Gaming in 2019, CAEYO is known to be in the top 10 ranked web developers in the world."
+          }
+        />
+        <Member
+          gamingName={"CAEYO"}
+          fullName={"Tao Ong"}
+          playerRole={"Player"}
+          description={
+            "Signed by Excelerate Gaming in 2019, CAEYO is known to be in the top 10 ranked web developers in the world."
+          }
+        />
+      </div>
+    );
+  };
+
+  renderHearthstone = () => {
+    return (
+      <div>
+        <Member
+          gamingName={"HAEYO"}
+          fullName={"Tao Ong"}
+          playerRole={"Player"}
+          description={
+            "Signed by Excelerate Gaming in 2019, HAEYO is known to be in the top 10 ranked web developers in the world."
+          }
+        />
+        <Member
+          gamingName={"HAEYO"}
+          fullName={"Tao Ong"}
+          playerRole={"Player"}
+          description={
+            "Signed by Excelerate Gaming in 2019, HAEYO is known to be in the top 10 ranked web developers in the world."
+          }
+        />
+        <Member
+          gamingName={"HAEYO"}
+          fullName={"Tao Ong"}
+          playerRole={"Player"}
+          description={
+            "Signed by Excelerate Gaming in 2019, HAEYO is known to be in the top 10 ranked web developers in the world."
           }
         />
       </div>
