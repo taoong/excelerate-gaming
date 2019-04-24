@@ -1,15 +1,18 @@
+$primary-1: #11a8e0;
+
 .tabs {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin: 0 32px;
 
   .tab {
-    margin: 8px 24px;
-    padding: 8px 24px;
+    flex: 1 1 0;
+    padding: 4px 24px;
+    white-space: nowrap;
     background-color: rgba(0, 0, 0, 0.05);
-    border-radius: 10px;
     transition: all 0.2 ease-in-out;
 
     &:focus {
@@ -17,7 +20,9 @@
     }
 
     &.selected {
-      background-color: rgba(0, 0, 0, 0.15);
+      color: $primary-1;
+      background-color: rgba($primary-1, 0.2);
+      border-bottom: 2px $primary-1 solid;
     }
   }
 }
@@ -41,13 +46,12 @@
   }
 
   div {
-    margin: 0 32px;
-    margin-bottom: auto;
+    margin: 0 48px;
   }
 
   p {
     margin-bottom: auto;
-    padding-bottom: 16px;
+    padding: 24px 0;
     width: 50%;
   }
 }
