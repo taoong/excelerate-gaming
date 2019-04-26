@@ -15,6 +15,15 @@ class Nav extends Component {
     });
   };
 
+  burgerToggle = () => {
+    let linksEl = document.querySelector(".narrowLinks");
+    if (linksEl.style.display === "block") {
+      linksEl.style.display = "none";
+    } else {
+      linksEl.style.display = "block";
+    }
+  };
+
   render() {
     return (
       <nav className={this.state.isTop ? "nav" : "nav light"}>
@@ -27,7 +36,7 @@ class Nav extends Component {
           Excelerate Gaming
         </Link>
 
-        <div className="nav-links">
+        <div className="nav-links navWide">
           <Link className="nav-link" to="/teams">
             TEAMS
           </Link>
@@ -39,6 +48,23 @@ class Nav extends Component {
           <Link className="nav-link" to="/contact">
             CONTACT
           </Link>
+        </div>
+
+        <div className="nav-links navNarrow">
+          <i class="fa fa-bars fa-2x" onClick={this.burgerToggle} />
+          <div className="narrowLinks">
+            <Link className="nav-link" to="/teams">
+              TEAMS
+            </Link>
+
+            <Link className="nav-link" to="/events">
+              EVENTS
+            </Link>
+
+            <Link className="nav-link" to="/contact">
+              CONTACT
+            </Link>
+          </div>
         </div>
       </nav>
     );

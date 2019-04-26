@@ -29,6 +29,38 @@ a {
 }
 
 /* ----- Navbar Component ----- */
+@media (min-width: 700px) {
+  nav {
+    .navWide {
+      display: block;
+    }
+
+    .navNarrow {
+      display: none;
+    }
+  }
+}
+
+.navWide {
+  display: none;
+}
+
+.navNarrow {
+  i {
+    color: white;
+  }
+
+  .narrowLinks {
+    display: none;
+
+    a {
+      display: block;
+      float: left;
+      clear: left;
+    }
+  }
+}
+
 .nav {
   position: fixed;
   display: flex;
@@ -70,7 +102,7 @@ a {
     margin-left: auto;
     margin-right: 40px;
 
-    a {
+    .nav-link {
       line-height: 60px;
       margin-left: 40px;
       padding-bottom: 4px;
@@ -89,6 +121,17 @@ a {
       &:visited {
         color: white;
       }
+    }
+
+    .icon {
+      // display: none;
+      line-height: 60px;
+      margin-left: 40px;
+      padding-bottom: 4px;
+      font-weight: 400;
+      font-size: 16px;
+      color: white;
+      text-decoration: none;
     }
   }
 
