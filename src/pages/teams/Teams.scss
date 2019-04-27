@@ -22,7 +22,7 @@ $primary-1: #11a8e0;
     &.selected {
       color: $primary-1;
       background-color: rgba($primary-1, 0.2);
-      border-bottom: 2px $primary-1 solid;
+      border-bottom: 1px $primary-1 solid;
     }
   }
 }

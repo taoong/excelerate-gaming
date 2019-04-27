@@ -41,27 +41,8 @@ a {
   }
 }
 
-.navWide {
-  display: none;
-}
-
-.navNarrow {
-  i {
-    color: white;
-  }
-
-  .narrowLinks {
-    display: none;
-
-    a {
-      display: block;
-      float: left;
-      clear: left;
-    }
-  }
-}
-
 .nav {
+  z-index: 4;
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -104,7 +85,8 @@ a {
 
     .nav-link {
       line-height: 60px;
-      margin-left: 40px;
+      margin-left: 20px;
+      margin-right: 20px;
       padding-bottom: 4px;
       font-weight: 400;
       font-size: 12px;
@@ -117,21 +99,32 @@ a {
       &:hover {
         border-bottom-color: rgba(255, 255, 255, 1);
       }
-
-      &:visited {
-        color: white;
-      }
     }
+  }
 
-    .icon {
-      // display: none;
+  .navNarrow {
+    i {
+      color: white;
       line-height: 60px;
       margin-left: 40px;
       padding-bottom: 4px;
       font-weight: 400;
-      font-size: 16px;
-      color: white;
+      font-size: 20px;
       text-decoration: none;
+      transition: all 200ms ease-in-out;
+    }
+
+    .narrowLinks {
+      background-color: white;
+      position: fixed;
+      display: none;
+      transition: all 200ms ease-in-out;
+
+      a {
+        color: black;
+        display: block;
+        clear: left;
+      }
     }
   }
 
@@ -149,5 +142,23 @@ a {
     .nav-links a {
       color: black;
     }
+
+    .navNarrow {
+      i {
+        color: black;
+      }
+
+      .narrowLinks {
+        background-color: black;
+
+        a {
+          color: white;
+        }
+      }
+    }
   }
+}
+
+.navWide {
+  display: none;
 }
