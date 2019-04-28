@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Home.scss";
 import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 import Tilt from "react-tilt";
 
 class Home extends Component {
@@ -125,6 +126,7 @@ class Home extends Component {
             </Tilt>
           </section>
         </div>
+        <Footer />
       </div>
     );
   }
