@@ -41,7 +41,7 @@ class Teams extends Component {
           fullName={"Tao Ong"}
           playerRole={"Player"}
           description={
-            "Signed by Excelerate Gaming in 2019, TAEYO is known to be in the top 10 ranked web developers in the world. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum."
+            "Signed by Excelerate Gaming in 2019, TAEYO is known to be in the top 10 ranked web developers in the world."
           }
         />
         <Member
@@ -49,7 +49,7 @@ class Teams extends Component {
           fullName={"Tao Ong"}
           playerRole={"Player"}
           description={
-            "Signed by Excelerate Gaming in 2019, TAEYO is known to be in the top 10 ranked web developers in the world. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum."
+            "Signed by Excelerate Gaming in 2019, TAEYO is known to be in the top 10 ranked web developers in the world."
           }
         />
         <Member
@@ -57,7 +57,7 @@ class Teams extends Component {
           fullName={"Tao Ong"}
           playerRole={"Player"}
           description={
-            "Signed by Excelerate Gaming in 2019, TAEYO is known to be in the top 10 ranked web developers in the world. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum."
+            "Signed by Excelerate Gaming in 2019, TAEYO is known to be in the top 10 ranked web developers in the world."
           }
         />
       </div>
@@ -72,7 +72,7 @@ class Teams extends Component {
           fullName={"Justin Tan"}
           playerRole={"Player"}
           description={
-            "After founding Excelerate Gaming in 2018, JTAN is known to be in the top 10 ranked founders in the world. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum."
+            "After founding Excelerate Gaming in 2018, JTAN is known to be in the top 10 ranked founders in the world."
           }
         />
         <Member
@@ -80,7 +80,7 @@ class Teams extends Component {
           fullName={"Justin Tan"}
           playerRole={"Player"}
           description={
-            "After founding Excelerate Gaming in 2018, JTAN is known to be in the top 10 ranked founders in the world. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum."
+            "After founding Excelerate Gaming in 2018, JTAN is known to be in the top 10 ranked founders in the world."
           }
         />
         <Member
@@ -88,7 +88,7 @@ class Teams extends Component {
           fullName={"Justin Tan"}
           playerRole={"Player"}
           description={
-            "After founding Excelerate Gaming in 2018, JTAN is known to be in the top 10 ranked founders in the world. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum."
+            "After founding Excelerate Gaming in 2018, JTAN is known to be in the top 10 ranked founders in the world."
           }
         />
       </div>
@@ -103,7 +103,7 @@ class Teams extends Component {
           fullName={"Tao Ong"}
           playerRole={"Player"}
           description={
-            "Signed by Excelerate Gaming in 2019, PAEYO is known to be in the top 10 ranked web developers in the world. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum."
+            "Signed by Excelerate Gaming in 2019, PAEYO is known to be in the top 10 ranked web developers in the world."
           }
         />
         <Member
@@ -111,7 +111,7 @@ class Teams extends Component {
           fullName={"Tao Ong"}
           playerRole={"Player"}
           description={
-            "Signed by Excelerate Gaming in 2019, PAEYO is known to be in the top 10 ranked web developers in the world. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum."
+            "Signed by Excelerate Gaming in 2019, PAEYO is known to be in the top 10 ranked web developers in the world."
           }
         />
         <Member
@@ -119,7 +119,7 @@ class Teams extends Component {
           fullName={"Tao Ong"}
           playerRole={"Player"}
           description={
-            "Signed by Excelerate Gaming in 2019, PAEYO is known to be in the top 10 ranked web developers in the world. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum."
+            "Signed by Excelerate Gaming in 2019, PAEYO is known to be in the top 10 ranked web developers in the world."
           }
         />
       </div>
@@ -134,7 +134,7 @@ class Teams extends Component {
           fullName={"Tao Ong"}
           playerRole={"Player"}
           description={
-            "Signed by Excelerate Gaming in 2019, CAEYO is known to be in the top 10 ranked web developers in the world. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum."
+            "Signed by Excelerate Gaming in 2019, CAEYO is known to be in the top 10 ranked web developers in the world."
           }
         />
         <Member
@@ -142,7 +142,7 @@ class Teams extends Component {
           fullName={"Tao Ong"}
           playerRole={"Player"}
           description={
-            "Signed by Excelerate Gaming in 2019, CAEYO is known to be in the top 10 ranked web developers in the world. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum."
+            "Signed by Excelerate Gaming in 2019, CAEYO is known to be in the top 10 ranked web developers in the world."
           }
         />
         <Member
@@ -150,7 +150,7 @@ class Teams extends Component {
           fullName={"Tao Ong"}
           playerRole={"Player"}
           description={
-            "Signed by Excelerate Gaming in 2019, CAEYO is known to be in the top 10 ranked web developers in the world. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum."
+            "Signed by Excelerate Gaming in 2019, CAEYO is known to be in the top 10 ranked web developers in the world."
           }
         />
       </div>
@@ -165,7 +165,7 @@ class Teams extends Component {
           fullName={"Tao Ong"}
           playerRole={"Player"}
           description={
-            "Signed by Excelerate Gaming in 2019, HAEYO is known to be in the top 10 ranked web developers in the world. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum."
+            "Signed by Excelerate Gaming in 2019, HAEYO is known to be in the top 10 ranked web developers in the world."
           }
         />
         <Member
@@ -173,7 +173,7 @@ class Teams extends Component {
           fullName={"Tao Ong"}
           playerRole={"Player"}
           description={
-            "Signed by Excelerate Gaming in 2019, HAEYO is known to be in the top 10 ranked web developers in the world. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum."
+            "Signed by Excelerate Gaming in 2019, HAEYO is known to be in the top 10 ranked web developers in the world."
           }
         />
         <Member
@@ -181,7 +181,7 @@ class Teams extends Component {
           fullName={"Tao Ong"}
           playerRole={"Player"}
           description={
-            "Signed by Excelerate Gaming in 2019, HAEYO is known to be in the top 10 ranked web developers in the world. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum Lorem ipsum lorem ipsum."
+            "Signed by Excelerate Gaming in 2019, HAEYO is known to be in the top 10 ranked web developers in the world."
           }
         />
       </div>

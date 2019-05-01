@@ -51,19 +51,26 @@ class Nav extends Component {
         </div>
 
         <div className="nav-links navNarrow">
-          <i class="fa fa-bars fa-2x" onClick={this.burgerToggle} />
-          <div className="narrowLinks">
-            <Link className="nav-link" to="/teams">
-              TEAMS
-            </Link>
+          <div id="menuToggle">
+            <input type="checkbox" />
 
-            <Link className="nav-link" to="/events">
-              EVENTS
-            </Link>
+            <span />
+            <span />
+            <span />
 
-            <Link className="nav-link" to="/contact">
-              CONTACT
-            </Link>
+            <ul id="menu">
+              <Link className="burger-link" to="/teams">
+                Teams
+              </Link>
+
+              <Link className="burger-link" to="/events">
+                Events
+              </Link>
+
+              <Link className="burger-link" to="/contact">
+                Contact
+              </Link>
+            </ul>
           </div>
         </div>
       </nav>
