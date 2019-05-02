@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Contact.scss";
 import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 
 class Contact extends Component {
   render() {
@@ -16,6 +17,7 @@ class Contact extends Component {
         <div className="container-raised">
           <section className="tabs" />
         </div>
+        <Footer />
       </div>
     );
   }

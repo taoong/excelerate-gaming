@@ -226,3 +226,46 @@ a {
     }
   }
 }
+
+/* Footer Component */
+
+.footer {
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    padding: none;
+
+    a {
+      text-decoration: none;
+
+      i {
+        color: rgba(0, 0, 0, 0.6);
+        margin: 8px;
+        font-size: 24px;
+        -o-transition: 200ms;
+        -ms-transition: 200ms;
+        -moz-transition: 200ms;
+        -webkit-transition: 200ms;
+        transition: 200ms;
+      }
+
+      .fa-facebook:hover {
+        color: #3b5998;
+      }
+
+      .fa-twitter:hover {
+        color: #00aced;
+      }
+
+      .fa-instagram:hover {
+        color: #962fbf;
+      }
+    }
+  }
+
+  .copyright {
+    margin: 8px 0 32px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+}

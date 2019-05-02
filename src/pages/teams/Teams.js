@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Teams.scss";
 import Nav from "../../components/Nav";
+import Footer from "../../components/Footer";
 import Member from "./Member";
 
 class Teams extends Component {
@@ -233,6 +234,7 @@ class Teams extends Component {
           </section>
           <section className="members">{this.renderMembers()}</section>
         </div>
+        <Footer />
       </div>
     );
   }
